@@ -51,7 +51,7 @@
     'name': 'variable.other.global.lisp'
   }
   {
-    'match': '(:[\\w\\-+]+)'
+    'match': '(?<![:\\w\\-+\\?]):([\\w\\-+\\?]+)'
     'name': 'variable.other.global.lisp'
   }
   {
