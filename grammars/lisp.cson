@@ -51,6 +51,10 @@
     'name': 'variable.other.global.lisp'
   }
   {
+    'match': '(:[\\w\\-+]+)'
+    'name': 'variable.other.global.lisp'
+  }
+  {
     'match': '\\b(?i:case|do|let|loop|if|else|when)\\b'
     'name': 'keyword.control.lisp'
   }
